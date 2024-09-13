@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=X-UA-Compatible content="ie=edge">
+    <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Rationale|Montserrat:200">
+    <link rel=stylesheet href=cover/css/normalize.css>
+    <link rel=stylesheet href=cover/css/simplebar.css>
+    <link rel=stylesheet href=cover/css/style.css>
+    <script type=text/javascript src=cover/js/simplebar.js></script>
+    <script src=cover/js/script.js></script>
+
+    <title>Sean Winningham | Full Stack Developer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Sean Winningham<span></span></h1>
+      <div class=flexer>
+        <h3>Full</h3>
+        <h3>Stack</h3>
+        <h3>Dev.</h3>
+      </div>
+    </header>
+
+    <main data-simplebar>
+      <div class=content>
+        <section role=region aria-labelledby=about-header>
+          <h2 id=about-header>ABOUT</h2>
+          <ul>
+            <li>4 years of professional web development experience</li>
+            <li>Master of HTML, CSS, JavaScript, C#, MSSQL, MySQL, ASP.NET Core, and ColdFusion</li>
+            <li>Familiar with PHP, Java, and Python</li>
+            <li>Learning HTMX, Blazor Components, Laravel, Svelte</li>
+          </ul>
+          <br>
+          <ul>
+            <li>Artistically talented</li>
+            <li>Technically minded</li>
+            <li class=align-left>BS in IT</li>
+          </ul>
+        </section>
+        <section role=region aria-labelledby=projects-header class=projects>
+          <h2 id=projects-header>PROJECTS</h2>
+          <div class=slideshow>
+            <div class=arrow-left onclick=changeImg(-1);>
+              <img src=cover/img/slider-arrow-left.png width=50>
+            </div>
+            <img class=scale src=https://placehold.it/618x440>
+            <a href=http://njcola.org target=_blank class=active style="background-image: url(cover/img/cola.png)"></a>
+            <a href=https://www.lakemohawkcc.com target=_blank style="background-image: url(cover/img/lmcc.png)"></a>
+            <a href=http://petersvalley.org target=_blank style="background-image: url(cover/img/pvsc.png)"></a>
+            <a href=http://www.sussexelderlaw.com target=_blank style="background-image: url(cover/img/rlf.png)"></a>
+            <a href=http://www.sussexcountyfairgrounds.org target=_blank style="background-image: url(cover/img/scfg.png)"></a>
+            <a href=http://www.vernonvalleylake.com target=_blank style="background-image: url(cover/img/vvl.png)"></a>
+            <a href=http://happskitchen.com target=_blank style="background-image: url(cover/img/hkb.png)"></a>
+            <div class=arrow-right onclick=changeImg(1);>
+              <img src=cover/img/slider-arrow-right.png width=50>
+            </div>
+          </div>
+        </section>
+        <section role=region aria-labelledby=contact-header class=contact>
+          <h2 id=contact-header>CONTACT</h2>
+          <p>
+            <a href=https://www.linkedin.com/in/seanwinningham/ target=_blank><img src=cover/img/In-2C-94px-TM.png width=50></a>
+            <a href=https://stackoverflow.com/users/6111540/spyderscript target=_blank><img src=cover/img/so-icon.png width=70></a>
+            <a href=mailto:sean@asdc.net target=_blank><img src=cover/img/email.png width=46></a>
+          </p>
+        </section>
+        <section role=region aria-labelledby=credits-header>
+          <h2 id=credits-header>CREDITS</h2>
+          <p>
+            <a href=https://fonts.googleapis.com target=_blank>Google Fonts</a><br>
+            <a href=https://necolas.github.io/normalize.css/ target=_blank>Normalize.css</a><br>
+            <a href=https://github.com/Grsmto/simplebar target=_blank>SimpleBar</a><br>
+            Coded from scratch with <a href=https://code.visualstudio.com target=_blank>VS Code</a>
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <script src=js/simplebar.js></script>
+  </body>
+</html>
